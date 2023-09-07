@@ -31,7 +31,7 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 ## 1. Introduction<a name="step1">
 
-This application demonstrates the use of an NFC 4 Click which Emulates the BLE Pairing Credentials for Simple Secure BLE OOB Pairing.
+This application demonstrates the use of an [NFC 4 Click](https://www.mikroe.com/nfc-4-click) interfaced via SPI which Emulates the BLE Records for Static Handover BLE pairing. The "Static Handover" aspect refers to the use of preconfigured or static data in NFC tags. These tags contain information about the BLE device, such as its Bluetooth service UUID (Universally Unique Identifier) and other necessary data. NFC Static Handover BLE pairing simplifies the user experience by eliminating the need for users to search for and manually select devices from a list of available Bluetooth devices. It also enhances security by ensuring that devices only connect to intended partners, as the NFC tag contains specific information for secure pairing.
 
 ![](docs/ex1.png)
 
@@ -195,7 +195,7 @@ USER_BUTTON
 	- [app.h](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/app.h).
 	- [app.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/app.c).
 	- [app_ble.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/app_ble/app_ble.c).
-	- [app_ble_handler.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/app_ble/app_ble_handler.c).
+	- [app_ble_handler.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/app_ble/app_ble_handler.c).
 	- [tasks.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/config/default/tasks.c).
 
 - In your MPLAB application add the following code in the mention file with link given below.
@@ -210,7 +210,7 @@ USER_BUTTON
 		
 		![](docs/systask.png)
 
-	- [sys_time.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/config/default/system/time/sys_time.c).
+	- [sys_time.c](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/firmware/src/config/default/system/time/src/sys_time.c).
 
 		- Add the following code
 		
