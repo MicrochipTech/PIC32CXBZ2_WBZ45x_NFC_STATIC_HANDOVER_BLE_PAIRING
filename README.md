@@ -33,7 +33,7 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 This application demonstrates the use of an [NFC 4 Click](https://www.mikroe.com/nfc-4-click) interfaced via SPI which Emulates the BLE Records for Static Handover BLE pairing. The "Static Handover" aspect refers to the use of preconfigured or static data in NFC tags. These tags contain information about the BLE device, such as its Bluetooth service UUID (Universally Unique Identifier) and other necessary data. NFC Static Handover BLE pairing simplifies the user experience by eliminating the need for users to search for and manually select devices from a list of available Bluetooth devices. It also enhances security by ensuring that devices only connect to intended partners, as the NFC tag contains specific information for secure pairing.
 
-![](docs/ex1.png)
+![](docs/exx1.png)
 
 ## 2. Bill of materials<a name="step2">
 
