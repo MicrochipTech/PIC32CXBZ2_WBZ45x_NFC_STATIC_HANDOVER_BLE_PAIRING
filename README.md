@@ -1,4 +1,4 @@
-# PIC32CXBZ2_WBZ45x_NFC_STATIC_HANDOVER_BLE_PAIRING
+# PIC32CXBZ2_WBZ45x NFC STATIC HANDOVER BLE PAIRING
 
 <img src="docs/IoT-Made-Easy-Logo.png" width=100>
 
@@ -6,7 +6,7 @@
 > "IoT Made Easy!" 
 
 Devices: **| PIC32CXBZ2 | WBZ45x |**<br>
-Features: **| NFC | DEVICE INFORMATION SERVICES | BLE |**
+Features: **| NFC | BLE |**
 
 
 ## ⚠ Disclaimer
