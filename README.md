@@ -251,6 +251,23 @@ USER_BUTTON
 
 ![](docs/TERATERM.png)
 	
+| NOTE | Use the reference links given below to know more about the hardware and software application|
+| :- | :- |
+
+- [PIC32CX-BZ2 and WBZ451 Curiosity Development Board](https://www.microchip.com/en-us/development-tool/EV96B94A)
+
+- [NFC 4 Click](https://www.mikroe.com/nfc-4-click)
+
+- [ST25R3916](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/docs/ST25R3916_Datasheet.pdf)
+
+- [NFC Forum](https://nfc-forum.org/)
+
+- [RFAL User Manual](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/docs/um2890-rfnfc-abstraction-layer-rfal-stmicroelectronics.pdf)
+
+- [Bluetooth® Secure Simple Pairing Using NFC](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/docs/NFCForum-AD-BTSSP-1.3.pdf) has the NDEF message format for the Simplified Tag Format which is implimented in this application as mentioned below.
+
+	![](docs/nfc_forum_ce.png)
+
 ## 6. Board Programming<a name="step6">
 
 ## Programming hex file:
