@@ -392,8 +392,8 @@ void APP_Tasks ( void )
         
         case APP_STATE_NFC_INIT:
         {
-            EIC_InterruptEnable(EIC_PIN_1);
-            EIC_CallbackRegister(EIC_PIN_1, wakeup_toggle, (uintptr_t) NULL);
+//            EIC_InterruptEnable(EIC_PIN_1);
+//            EIC_CallbackRegister(EIC_PIN_1, wakeup_toggle, (uintptr_t) NULL);
             
             appData.handle = DRV_SPI_Open(DRV_SPI_INDEX_0, DRV_IO_INTENT_EXCLUSIVE);
             DRV_SPI_TRANSFER_SETUP setup;
