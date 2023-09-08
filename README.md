@@ -6,7 +6,7 @@
 > "IoT Made Easy!" 
 
 Devices: **| PIC32CXBZ2 | WBZ45x |**<br>
-Features: **| NFC | DEVICE INFORMATION SERVICES | BLE |**
+Features: **| NFC | BLE |**
 
 
 ## ⚠ Disclaimer
