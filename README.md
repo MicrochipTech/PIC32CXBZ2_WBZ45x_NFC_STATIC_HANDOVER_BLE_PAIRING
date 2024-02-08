@@ -264,7 +264,7 @@ USER_BUTTON
 
 - [RFAL User Manual](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/docs/um2890-rfnfc-abstraction-layer-rfal-stmicroelectronics.pdf)
 
-- [Bluetooth® Secure Simple Pairing Using NFC](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_BLE_OOB_PAIRING_NFC/blob/main/docs/NFCForum-AD-BTSSP-1.3.pdf) has the NDEF message format for the Simplified Tag Format which is implimented in this application as mentioned below.
+- [Bluetooth® Secure Simple Pairing Using NFC](https://nfc-forum.org/build/specifications) has the NDEF message format for the Simplified Tag Format which is implimented in this application as mentioned below.
 
 	![](docs/nfc_forum_ce.png)
 
